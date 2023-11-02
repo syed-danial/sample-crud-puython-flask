@@ -8,10 +8,10 @@ def check_connection():
     try:
         # Connect to the database
         conn = psycopg2.connect(
-            database="flask_db",
+            database="workoutapp",
             user="postgres",
-            password="adminadmin",
-            host="172.23.0.1",
+            password="FVynNoS7fAusCiLv",
+            host="parserapp-dev.ckzduimfmpdl.us-west-2.rds.amazonaws.com",
             port="5432"
         )
 
